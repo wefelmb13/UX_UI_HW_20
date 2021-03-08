@@ -1,15 +1,24 @@
 /* font-family: 'Bangers', cursive;
 font-family: 'Caveat', cursive;
 font-family: 'Nunito', sans-serif; */
-
-.navbar-brand img {
-    height: 100px;
-    width: 130px;
+h1 {
+  font-family: 'Bangers', cursive;
+  font-size: 96px;
 }
-.navbar-brand{
-    color: #D8CBCE !important;
-    font-family: 'Bangers', cursive;
-    font-size: 56;
+h3 {
+  font-family: 'Bangers', cursive;
+  font-size: 64px;
+  color: #6A1468;
+}
+h6 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  color: #0B0D1F;
+}
+p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px !important;
+  color: #0B0D1F;
 }
 .customNav {
     position: fixed;
@@ -23,18 +32,114 @@ font-family: 'Nunito', sans-serif; */
     margin-left: auto;
     margin-right: 0 !important;
   }
+.navbar-brand img {
+    padding-right: 15px;
+    height: 100px;
+    width: 130px;
+}
+.navbar-brand{
+    color: #D8CBCE !important;
+    font-family: 'Bangers', cursive;
+    font-size: 56;
+}
 .nav-item {
     margin: 0px 15px;
-  }
+}
 #about a {
     color: #FF4291 !important;
-  }
+}
 #work a {
     color: #1CDCDE !important;
-  }
+}
 #skills a {
     color: #D72CB5 !important;
-  }
+ }
 #contact a {
     color: #FDFF8D !important;
+}
+.navCTA {
+  font-size: 18px;
+}
+
+.jumbotron {
+  background-image: url(../images/hero1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+.jumboCopy {
+    width: 70%;
+    max-height: 300px;
+    min-width: 500px;
+    max-width: 700px;
+    text-align: center;
+    background-color: #0B0D1F;
+    border-style: solid;
+    border-color:#D72CB5;
+    border-width: 2px;
+}
+.lead {
+  color: #FDFF8D !important;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 5px;
+}
+.jumboCopy H1 {
+  color: #1CDCDE;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.card-section {
+  border-style: solid;
+  border-color: #6A1468;
+  border-width: 5px;
+  max-width: 75%;
+  margin: auto;
+  overflow: auto;
+  background-color: #D8CBCE;
+  text-align: left;
+}
+.header {
+  padding-top: 50px;
+  padding-left: 100px;
+}
+.subheader {
+  max-width: 75%;
+  padding: 10px;
+}
+.box-list {
+  border-style: solid;
+  border:#6A1468;
+  border-width: 2px;
+  max-width: 20%;
+  margin: auto;
+  overflow: auto;
+  text-align: left;
+}
+.carousel-item img {
+  height: 450px;
+  width: 500px !important;
+  margin: auto;
+  border-style: solid;
+  border-color:black;
+  border-width: 2px;
+}
+.carousel {
+    width:auto;
+    color: white;
+    text-align: center;
+    margin: auto;
   }
+
+.description{
+  padding-top: 100px;
+
+}
