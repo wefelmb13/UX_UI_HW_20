@@ -1,3 +1,40 @@
 /* font-family: 'Bangers', cursive;
 font-family: 'Caveat', cursive;
 font-family: 'Nunito', sans-serif; */
+
+.navbar-brand img {
+    height: 100px;
+    width: 130px;
+}
+.navbar-brand{
+    color: #D8CBCE !important;
+    font-family: 'Bangers', cursive;
+    font-size: 56;
+}
+.customNav {
+    position: fixed;
+    width: 100%;
+    background: url("../images/transparency.png");
+    background-color: #0B0D1F !important;
+    background-size: cover;
+    z-index: 10;
+  }
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+.nav-item {
+    margin: 0px 15px;
+  }
+#about a {
+    color: #FF4291 !important;
+  }
+#work a {
+    color: #1CDCDE !important;
+  }
+#skills a {
+    color: #D72CB5 !important;
+  }
+#contact a {
+    color: #FDFF8D !important;
+  }
